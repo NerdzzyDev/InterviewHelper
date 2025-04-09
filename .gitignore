@@ -1,0 +1,129 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs-info/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.txt
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written to the dist directory.
+#  You should change the dist directory below if your project
+#  uses a different dist directory.
+dist/
+build/
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipy[nb,py]
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# mypy cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Environments (pipenv)
+#   According to pypa/pipenv#598 and pypa/pipenv#1590,
+#   pipenv creates the virtualenv in the project root.
+#   That's why we need to include above patterns as well.
+#   Also, note that there are reports that pipenv might create
+#   it in the home directory (~/.local/share/virtualenvs/).
+#   Thus, you might want to add `~/.local/share/virtualenvs`
+#   to your .gitignore as well.
+Pipfile.lock
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+*.orig
+
+# Flask stuff:
+instance/
+.sqlite
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# celery beat schedule file
+celerybeat-schedule
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+site/
+
+# mypy cache
+.mypy_cache/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Emacs
+*~
+\#*
+
+# Other
+__pycache__
+*.pyc
+*.log
+*.swp
+*.swo
+*.sqlite
+*.sqlite3
+.DS_Store
