@@ -5,3 +5,4 @@ numpy
 pynput
 google
 PySocks
+python-dotenv
